@@ -54,7 +54,7 @@ Trong Laravel khi hiển thị dữ liệu trong blade, bạn nên dùng các h�
 Với CSP thì có thể cấu hình trình duyệt chỉ chạy những mã javascript từ những domain được chỉ định sẵn mà thôi
 
 
-#SQL Injection
+# SQL Injection
 SQL injection là một kỹ thuật cho phép những kẻ tấn công lợi dụng lỗ hổng của việc kiểm tra dữ liệu đầu vào trong các ứng dụng web và các thông báo lỗi của hệ quản trị cơ sở dữ liệu trả về để inject và thi hành các câu lệnh SQL bất hợp pháp.
 
 Hậu quả của nó để lại thì rất quan ngại: lộ dữ liệu, chỉnh sửa dữ liệu và ảnh hưởng đến toàn bộ hệ thống bởi dữ liệu là trung tâm của cả ứng dụng.
@@ -70,7 +70,7 @@ Cách phòng chống là:
 - Backup dữ liệu thường xuyên: Cần thận không bao giờ thừa, cứ phòng hơn chống.
 
 
-#HTTPS
+# HTTPS
 Khi bạn triển khai trang web của mình trên HTTP, tất cả dữ liệu sẽ được trao đổi ở đây sẽ được gửi dưới dạng văn bản thuần túy. Bất cứ ai có kế hoạch ăn cắp có thể thực hiện nó trong quá trình truyền. Vì vậy, để bảo vệ tất cả thông tin có trên ứng dụng web của bạn, bạn nên triển khai nó trên HTTPS.
 
 Trong Laravel bạn có thể dễ dàng làm chuyện này:
